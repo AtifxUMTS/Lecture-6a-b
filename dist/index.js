@@ -1,31 +1,6 @@
-import a from "./data/data1.js"
-import {b,c, sum} from "./data/data1.js"
-import { num1, num2, students } from "./data/data2.js"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // https://www.typescriptlang.org/docs/handbook/esm-node.htm1
-
 /*
 1. *Install Node.js:*
    - Install Node.js version 18.17.1 LTS from the official Node.js website (https://nodejs.org/en).
@@ -76,4 +51,4 @@ import { num1, num2, students } from "./data/data2.js"
    //Create a file named `.gitignore`.
    //Inside the `.gitignore` file, write `node_modules` to exclude the `node_modules` directory from version control.
 
-*/
+*/ 
