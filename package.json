@@ -1,6 +1,10 @@
 {
   "description": "",
   "devDependencies": {
+    "@types/inquirer": "^9.0.3",
     "@types/node": "^20.6.3"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.11"
   }
 }
