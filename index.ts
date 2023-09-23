@@ -1,23 +1,7 @@
-import inquirer from "inquirer";
+import inquirer from "inquirer"
 import a from "./data/data1.js"
 import {b,c, sum} from "./data/data1.js"
 import { num1, num2, students } from "./data/data2.js"
-
-console.log("🚀 ~ file: index.ts:4 ~ num1:", num1)
-console.log("🚀 ~ file: index.ts:4 ~ students:", students)
-
-
-
-// inquirer documentation: https://github.com/SBoundrias/inquirer.js
-
-
-let answers = await inquirer.prompt([{
-    name: "age",
-    type: "number",
-    message: "Enter your Age"}
-   ]);
-
-   console.log("Inshah Allah in " + (60 - answers.age) + "years you will 60 years old.");
 
 
 

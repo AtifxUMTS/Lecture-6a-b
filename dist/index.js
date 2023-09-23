@@ -1,20 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const inquirer_1 = __importDefault(require("inquirer"));
-const data2_js_1 = require("./data/data2.js");
-console.log("🚀 ~ file: index.ts:4 ~ num1:", data2_js_1.num1);
-console.log("🚀 ~ file: index.ts:4 ~ students:", data2_js_1.students);
-// inquirer documentation: https://github.com/SBoundrias/inquirer.js
-let answers = await inquirer_1.default.prompt([{
-        name: "age",
-        type: "number",
-        message: "Enter your Age"
-    }
-]);
-console.log("Inshah Allah in " + (60 - answers.age) + "years you will 60 years old.");
 // https://www.typescriptlang.org/docs/handbook/esm-node.htm1
 /*
 1. *Install Node.js:*
